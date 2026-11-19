@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://ihashstudios.netlify.app/</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/services</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/work</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/about</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/contact</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/contact?service=Web%20Application%20Development</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/contact?service=Windows%20Desktop%20Applications</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://ihashstudios.netlify.app/contact?service=Custom%20Business%20Software</loc>
+       <lastmod>2026-11-19T10:30:48+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+</urlset>
