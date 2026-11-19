@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-blue: #245BFF;
+  --color-secondary-purple: #7628E8;
+  --color-dark-navy: #0D132A;
+  --color-primary-text: #141B33;
+  --color-background: #F8FAFF;
+  --color-white: #FFFFFF;
+  
+  --font-tagline: 'Century Gothic', CenturyGothic, AppleGothic, 'URW Gothic L', 'Poppins', sans-serif;
+  --font-brand-geometric: 'Century Gothic', CenturyGothic, 'Poppins', 'Montserrat', -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  background-color: #F8FAFF;
+  color: #141B33;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #245BFF;
+  color: #FFFFFF;
+}
+
+/* Subtle tech grid background */
+.tech-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(36, 91, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(36, 91, 255, 0.04) 1px, transparent 1px);
+}
+
+.tech-dot-pattern {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(36, 91, 255, 0.08) 1px, transparent 0);
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.glass-panel-dark {
+  background: rgba(13, 19, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

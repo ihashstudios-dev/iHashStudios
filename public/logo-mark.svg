@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="ihash-gradient-mark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#245BFF" />
+      <stop offset="100%" stop-color="#7628E8" />
+    </linearGradient>
+    <linearGradient id="ihash-subtle-mark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#245BFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#7628E8" stop-opacity="0.15" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#0D132A" />
+  <rect x="2.5" y="2.5" width="59" height="59" rx="15.5" stroke="url(#ihash-gradient-mark)" stroke-opacity="0.5" stroke-width="1.5" />
+  <rect x="6" y="6" width="52" height="52" rx="12" fill="url(#ihash-subtle-mark)" />
+  
+  <rect x="16" y="24" width="32" height="3.5" rx="1.75" fill="url(#ihash-gradient-mark)" />
+  <rect x="16" y="36" width="32" height="3.5" rx="1.75" fill="url(#ihash-gradient-mark)" />
+  
+  <path d="M26 15L22 49" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M42 15L38 49" stroke="url(#ihash-gradient-mark)" stroke-width="4" stroke-linecap="round" />
+  
+  <circle cx="43" cy="14" r="3.5" fill="#245BFF" />
+</svg>
